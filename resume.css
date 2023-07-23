@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 50;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(253, 254, 255);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.full {
+    width:50%;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: rgb(245, 239, 231);
+    margin: 80px;
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+}
+.left {
+    background-color: #BF6C44;
+    padding: 50px;
+}
+.right{
+    background-color: #FFFDD0;
+    padding: 50px;
+}
+.profile, .education, .project, .skills, .clubs, .contact, .hobbies, .language, .student {
+    margin-top: 30px;
+    font: 15px "Fira Sans", sans-serif;;
+}
